@@ -2,22 +2,6 @@
 
 ---
 
-## Headline results
-
-| Result | Value | Paper |
-|---|---|---|
-| TVLA, unprotected, fixed-vs-random | max \|t\| = 53.7 (2971/5000 points > 4.5) | Table 2 |
-| TVLA, unprotected, fixed-vs-fixed (secret-dependent) | max \|t\| = 195.7 (12,298/20,000); χ² = 975 | Table 2, Fig. 2 |
-| CPA, row 0 of `O` | 5/8 nibbles top-1; mean rank 1.75/16; **16⁸ → 24 candidates** | Table 4, Fig. 3 |
-| Full-matrix enumeration bound | 2²⁰⁸⁹ measured (78 rows); ≈2¹⁶¹⁷ extrapolated; nominal 2²⁴⁹⁶ | Sec. 6.3 |
-| Countermeasure overhead | 16,242 → 36,130 cycles = **2.22×** | Table 6 |
-| Masking **alone** (no shuffle) | max \|t\| = 17.94 (10,799/24,000) — still fails | Sec. 8.1 |
-| Masked **+ shuffled**, drift-free capture | **max \|t\| = 3.62, 0/24,000 points > 4.5** | Sec. 8.3, Figs. 2/4/5 |
-| Same-secret drift floor (measurement noise) | \|t\| = 4.12 / 4.52 | Sec. 8.3 |
-
-All numbers in `results/*.json`.
-
----
 
 ## Hardware
 
