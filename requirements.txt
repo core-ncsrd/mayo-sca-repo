@@ -1,0 +1,8 @@
+# Analysis-only dependencies (no hardware required).
+numpy>=1.24
+scipy>=1.10
+matplotlib>=3.6
+
+# Capture scripts additionally require the ChipWhisperer stack and a
+# physical CW1173 + CW308_STM32F3 target:
+#   pip install chipwhisperer>=6.0

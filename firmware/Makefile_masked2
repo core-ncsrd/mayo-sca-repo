@@ -1,0 +1,10 @@
+# SPDX-License-Identifier: Apache-2.0
+SS_VER = SS_VER_1_1
+# Point this at your ChipWhisperer checkout, or export CW_FIRMWAREPATH.
+FIRMWAREPATH ?= $(CW_FIRMWAREPATH)
+TARGET = mayo-lm-masked2
+SRC    += mayo_lm_masked2.c
+CRYPTO_TARGET = NONE
+PLATFORM      = CW308_STM32F3
+EXTRAINCDIRS += .
+include $(FIRMWAREPATH)/Makefile.inc

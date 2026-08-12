@@ -1,0 +1,40 @@
+{
+  "cycles": {
+    "unmasked": {
+      "median_cycles": 16242,
+      "min": 16242,
+      "max": 16242,
+      "n": 12
+    },
+    "masked_naive": {
+      "median_cycles": 35565,
+      "min": 35565,
+      "max": 35565,
+      "n": 12
+    },
+    "masked_shuffle": {
+      "median_cycles": 36130,
+      "min": 36130,
+      "max": 36130,
+      "n": 12
+    }
+  },
+  "overhead_factor": {
+    "masked_naive": 2.19,
+    "masked_shuffle": 2.224
+  },
+  "masked_shuffle_tvla": {
+    "nA": 800,
+    "nB": 800,
+    "samples": 24000,
+    "max_t": 9.715607643127441,
+    "n_over_4p5": 765,
+    "argmax": 21819,
+    "passes_4p5_gate": false
+  },
+  "cpa_capture": {
+    "n": 2500,
+    "samples": 6000,
+    "adc": "x4"
+  }
+}

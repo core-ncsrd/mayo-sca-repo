@@ -1,0 +1,76 @@
+cff-version: 1.2.0
+title: >-
+  Side-Channel Analysis of the MAYO Secret Linear Map on a Cortex-M4
+  (reproduction artifact)
+message: >-
+  If you use this artifact, please cite both the software and the
+  accompanying paper.
+type: software
+license: Apache-2.0
+authors:
+  - family-names: Lampropoulou
+    given-names: Virginia
+    affiliation: >-
+      Institute of Informatics and Telecommunications, NCSR "Demokritos",
+      Athens, Greece
+  - family-names: Economopoulos
+    given-names: Achileas
+    affiliation: >-
+      Institute of Informatics and Telecommunications, NCSR "Demokritos",
+      Athens, Greece
+  - family-names: Kourtis
+    given-names: Michail-Alexandros
+    email: akis.kourtis@iit.demokritos.gr
+    affiliation: >-
+      Institute of Informatics and Telecommunications, NCSR "Demokritos",
+      Athens, Greece
+  - family-names: Xilouris
+    given-names: George
+    affiliation: >-
+      Institute of Informatics and Telecommunications, NCSR "Demokritos",
+      Athens, Greece
+  - family-names: Niemiec
+    given-names: Marcin
+    affiliation: >-
+      Institute of Telecommunications, AGH University of Krakow, Krakow, Poland
+  - family-names: Opiłka
+    given-names: Filip
+    affiliation: >-
+      Institute of Telecommunications, AGH University of Krakow, Krakow, Poland
+keywords:
+  - hardware security
+  - side-channel analysis
+  - post-quantum cryptography
+  - multivariate signatures
+  - MAYO
+  - TVLA
+  - correlation power analysis
+  - masking
+  - shuffling
+  - Cortex-M4
+repository-code: 'https://github.com/pq-next/mayo-sca'
+# doi: 10.5281/zenodo.XXXXXXX   # uncomment once the Zenodo DOI is minted
+preferred-citation:
+  type: article
+  title: >-
+    Leakage Assessment and Correlation Power Analysis of the MAYO Secret Linear
+    Map on a Cortex-M4: A Reproducible Case Study and a Validated First-Order
+    Countermeasure
+  authors:
+    - family-names: Lampropoulou
+      given-names: Virginia
+    - family-names: Economopoulos
+      given-names: Achileas
+    - family-names: Kourtis
+      given-names: Michail-Alexandros
+    - family-names: Xilouris
+      given-names: George
+    - family-names: Niemiec
+      given-names: Marcin
+    - family-names: Opiłka
+      given-names: Filip
+  journal: Cryptography
+  publisher:
+    name: MDPI
+  year: 2026
+  # volume/issue/pages/doi to be completed on acceptance

@@ -1,0 +1,9 @@
+{
+  "unmasked_max_t": 195.66140747070312,
+  "masked_bi_max_t": 3.615446090698242,
+  "masked_bi_over": 0,
+  "masked_chi2_max": 26.96310771368007,
+  "driftfloor_A": 4.12334680557251,
+  "driftfloor_B": 4.521245956420898,
+  "reduction_factor": 54.11819076538086
+}

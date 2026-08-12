@@ -1,0 +1,17 @@
+MAYO Secret Linear Map — Side-Channel Analysis Artifact
+Copyright 2026 NCSR "Demokritos" and AGH University of Krakow
+
+Licensed under the Apache License, Version 2.0 (see LICENSE).
+
+This product includes software developed as part of the MAYO reference
+implementation (MAYO-C), used here under the Apache License 2.0:
+
+  firmware/simple_arithmetic.h   — GF(16) arithmetic, unmodified
+  firmware/mem.h                 — memory helpers, unmodified
+
+These two headers are reproduced verbatim so that the leakage measured by this
+artifact is faithful to the reference implementation. All other files in this
+repository are original work by the authors.
+
+This work was supported by the European Union's Horizon Europe programme under
+grant agreements No. 101225759 (PQ-NEXT) and No. 101119547 (PQ-REACT).

@@ -1,0 +1,40 @@
+# --- Trace data (hosted on Zenodo, not in git; see README) ---
+traces/
+traces_*/
+*.npy
+!results/*.npy
+
+# --- Build artefacts ---
+paper_assets/
+*.o
+*.elf
+*.hex
+*.bin
+*.lss
+*.map
+*.d
+objdir*/
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# --- Environment / secrets (never commit) ---
+.env
+.env.*
+*.pem
+*.key
+id_rsa*
+id_ed25519*
+credentials.json
+.netrc
+
+# --- OS / editor ---
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
