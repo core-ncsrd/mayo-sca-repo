@@ -1,18 +1,5 @@
 # Side-Channel Analysis of the MAYO Secret Linear Map on a Cortex-M4
 
-Reproduction artifact for the paper:
-
-> **Leakage Assessment and Correlation Power Analysis of the MAYO Secret Linear
-> Map on a Cortex-M4: A Reproducible Case Study and a Validated First-Order
-> Countermeasure**
-> V. Lampropoulou, A. Economopoulos, M.-A. Kourtis, G. Xilouris,
-> M. Niemiec, F. Opiłka
-> *Cryptography* (MDPI), Special Issue *Emerging Topics in Hardware Security (2nd Edition)*.
-
-This repository contains everything needed to reproduce the leakage assessment,
-the key-recovery attack, and the validated countermeasure: firmware (protected
-and unprotected), capture scripts, analysis scripts, and the measured results.
-
 ---
 
 ## Headline results
